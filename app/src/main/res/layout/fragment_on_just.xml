@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#494EED"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".OnJustFragment">
+
+   <ImageView
+       android:id="@+id/waletr_image"
+       android:layout_marginTop="90dp"
+       app:layout_constraintRight_toRightOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintLeft_toLeftOf="parent"
+       android:background="@color/purple_200"
+       android:src="@drawable/walet3"
+       android:layout_width="200dp"
+       android:layout_height="200dp"/>
+
+   <TextView
+       android:id="@+id/title_text"
+       android:textSize="24sp"
+       android:textColor="@color/white"
+       android:textStyle="bold"
+       android:text="Smart Wallet"
+       android:layout_marginTop="55dp"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintRight_toRightOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/waletr_image"
+       android:layout_width="153sp"
+       android:layout_height="28sp"/>
+
+   <TextView
+       android:id="@+id/description_text"
+       android:fontFamily="sans-serif-condensed"
+       android:textSize="16sp"
+       android:textColor="@color/white"
+       android:textAlignment="center"
+       android:text="Managing your money can be the easiest  thing you do all day."
+       android:layout_marginTop="28dp"
+       app:layout_constraintRight_toRightOf="parent"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/title_text"
+       android:layout_width="290sp"
+       android:layout_height="38sp"/>
+
+<!--   <Button-->
+<!--       android:id="@+id/netx_button"-->
+<!--       android:text="Next"-->
+<!--       android:textSize="14sp"-->
+<!--       android:layout_marginTop="21dp"-->
+<!--       app:layout_constraintRight_toRightOf="parent"-->
+<!--       app:layout_constraintLeft_toLeftOf="parent"-->
+<!--       app:layout_constraintTop_toBottomOf="@id/description_text"-->
+<!--       android:layout_width="140dp"-->
+<!--       android:layout_height="50dp"/>-->
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
